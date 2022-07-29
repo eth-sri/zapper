@@ -1,0 +1,22 @@
+[package]
+name = "zapper-backend"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "zapper_backend"
+crate-type = ["cdylib"]
+
+[dependencies]
+ark-ff = { version = "^0.3.0" }
+pyo3 = { version = "0.15.1", features = ["extension-module"] }
+ark-std = { version = "^0.3.0" }
+ark-gm17 = { version = "^0.3.0" }
+rand = "0.8"
+num-bigint = { version = "0.4.0", default-features = false }
+hex = "0.4"
+zapper-backend-lib = { path = "../lib" }
+
+[features]
+tiny = ["zapper-backend-lib/tiny"]  # sets constants of backend to small values (useful for cheap debugging and testing)

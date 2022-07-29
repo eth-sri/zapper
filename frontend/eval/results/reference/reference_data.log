@@ -1,0 +1,216 @@
+{"context": [], "data": {"time": {"key": "setup", "elapsed_sec": 37.20661465199373}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "create"], "data": {"nof_instructions": 6}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "merge"], "data": {"nof_instructions": 21}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "mint"], "data": {"nof_instructions": 7}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "split"], "data": {"nof_instructions": 29}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "transfer"], "data": {"nof_instructions": 8}}
+{"context": ["coin"], "data": {"time": {"key": "compile", "elapsed_sec": 0.00557631699484773}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "execute", "elapsed_sec": 21.56196435300808}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01637740500154905}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008087337002507411}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify", "elapsed_sec": 0.024597351002739742}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "execute", "elapsed_sec": 21.525580311994418}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.016610664999461733}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008442853999440558}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02517106500454247}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "merge"], "data": {"time": {"key": "execute", "elapsed_sec": 21.719489381008316}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "merge"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.016268405990558676}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "merge"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.012512276007328182}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "merge"], "data": {"time": {"key": "verify", "elapsed_sec": 0.0288871829980053}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "transfer"], "data": {"time": {"key": "execute", "elapsed_sec": 21.50942064699484}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "transfer"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015297684993129224}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "transfer"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013929748005466536}}}
+{"context": ["coin", "eval.scenarios.coin.Coin", "transfer"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029295999003807083}}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "abort"], "data": {"nof_instructions": 18}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "accept"], "data": {"nof_instructions": 36}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "create"], "data": {"nof_instructions": 21}}
+{"context": ["dex"], "data": {"time": {"key": "compile", "elapsed_sec": 0.003876040005707182}}}
+{"context": ["dex", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "execute", "elapsed_sec": 21.409782571994583}}}
+{"context": ["dex", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015253256991854869}}}
+{"context": ["dex", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.01376151900331024}}}
+{"context": ["dex", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029086255002766848}}}
+{"context": ["dex", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "execute", "elapsed_sec": 21.451110017995234}}}
+{"context": ["dex", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015337201999500394}}}
+{"context": ["dex", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008139783996739425}}}
+{"context": ["dex", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify", "elapsed_sec": 0.023566595002193935}}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "create"], "data": {"time": {"key": "execute", "elapsed_sec": 21.494036997988587}}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "create"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015403281999169849}}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "create"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008412013004999608}}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "create"], "data": {"time": {"key": "verify", "elapsed_sec": 0.023898935003671795}}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "accept"], "data": {"time": {"key": "execute", "elapsed_sec": 21.81499599199742}}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "accept"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015700895004556514}}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "accept"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008323457994265482}}}
+{"context": ["dex", "eval.scenarios.dex_offer.DexOffer", "accept"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02411256599589251}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "bid"], "data": {"nof_instructions": 48}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "create"], "data": {"nof_instructions": 45}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "won"], "data": {"nof_instructions": 33}}
+{"context": ["auction"], "data": {"time": {"key": "compile", "elapsed_sec": 0.0060330879932735115}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "execute", "elapsed_sec": 21.41994263000379}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015473324994673021}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.012962513996171765}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02853023300122004}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "execute", "elapsed_sec": 21.406333113991423}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015682053999626078}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008395030003157444}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify", "elapsed_sec": 0.024177005005185492}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "execute", "elapsed_sec": 21.598098257003585}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01547164999647066}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.01388169800338801}}}
+{"context": ["auction", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02943932800553739}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "create"], "data": {"time": {"key": "execute", "elapsed_sec": 21.580029760007164}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "create"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01543917300296016}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "create"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008427116001257673}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "create"], "data": {"time": {"key": "verify", "elapsed_sec": 0.023948463989654556}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "bid"], "data": {"time": {"key": "execute", "elapsed_sec": 21.877735697009484}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "bid"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015583863001666032}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "bid"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008191681001335382}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "bid"], "data": {"time": {"key": "verify", "elapsed_sec": 0.023848594006267376}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "bid"], "data": {"time": {"key": "execute", "elapsed_sec": 21.866260587004945}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "bid"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01585075299954042}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "bid"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.012503239995567128}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "bid"], "data": {"time": {"key": "verify", "elapsed_sec": 0.028438000997994095}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "won"], "data": {"time": {"key": "execute", "elapsed_sec": 21.918586382002104}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "won"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015486107004107907}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "won"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008197073999326676}}}
+{"context": ["auction", "eval.scenarios.auction.Auction", "won"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02377373998751864}}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "create"], "data": {"nof_instructions": 8}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "incorporate"], "data": {"nof_instructions": 9}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "set_score"], "data": {"nof_instructions": 25}}
+{"context": ["reviews", "eval.scenarios.reviews.Result", "create"], "data": {"nof_instructions": 10}}
+{"context": ["reviews", "eval.scenarios.reviews.Result", "increase_score"], "data": {"nof_instructions": 11}}
+{"context": ["reviews", "eval.scenarios.reviews.Result", "notify_author"], "data": {"nof_instructions": 11}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "create"], "data": {"nof_instructions": 22}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "incorporate_review"], "data": {"nof_instructions": 32}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "notify_author"], "data": {"nof_instructions": 17}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "request_review"], "data": {"nof_instructions": 17}}
+{"context": ["reviews"], "data": {"time": {"key": "compile", "elapsed_sec": 0.008318345004227012}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "create"], "data": {"time": {"key": "execute", "elapsed_sec": 21.455724870000267}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "create"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01544766100414563}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "create"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.01358078300836496}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "create"], "data": {"time": {"key": "verify", "elapsed_sec": 0.0291185759997461}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "request_review"], "data": {"time": {"key": "execute", "elapsed_sec": 21.674076403985964}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "request_review"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015277970000170171}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "request_review"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008388368994928896}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "request_review"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02375277000828646}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "request_review"], "data": {"time": {"key": "execute", "elapsed_sec": 21.67060745100025}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "request_review"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015533941987087019}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "request_review"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008241679999628104}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "request_review"], "data": {"time": {"key": "verify", "elapsed_sec": 0.023859851993620396}}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "set_score"], "data": {"time": {"key": "execute", "elapsed_sec": 21.556888222999987}}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "set_score"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015483595998375677}}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "set_score"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.01377465900441166}}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "set_score"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029345941002247855}}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "set_score"], "data": {"time": {"key": "execute", "elapsed_sec": 21.574430088992813}}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "set_score"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015742686999146827}}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "set_score"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.014055612002266571}}}
+{"context": ["reviews", "eval.scenarios.reviews.Review", "set_score"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029887479002354667}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "incorporate_review"], "data": {"time": {"key": "execute", "elapsed_sec": 21.938537076988723}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "incorporate_review"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015516273997491226}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "incorporate_review"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013242482993518934}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "incorporate_review"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02884756401181221}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "incorporate_review"], "data": {"time": {"key": "execute", "elapsed_sec": 21.85231762100011}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "incorporate_review"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01547446999757085}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "incorporate_review"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.00831194499915}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "incorporate_review"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02386979899893049}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "notify_author"], "data": {"time": {"key": "execute", "elapsed_sec": 21.75991082600376}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "notify_author"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01544426400505472}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "notify_author"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008583482005633414}}}
+{"context": ["reviews", "eval.scenarios.reviews.Paper", "notify_author"], "data": {"time": {"key": "verify", "elapsed_sec": 0.024116141998092644}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "add_heir"], "data": {"nof_instructions": 40}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "beat"], "data": {"nof_instructions": 9}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "claim"], "data": {"nof_instructions": 80}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "create"], "data": {"nof_instructions": 25}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_in"], "data": {"nof_instructions": 39}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_out"], "data": {"nof_instructions": 57}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "remove_heir"], "data": {"nof_instructions": 31}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Share", "create"], "data": {"nof_instructions": 7}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Share", "invalidate"], "data": {"nof_instructions": 8}}
+{"context": ["heritable"], "data": {"time": {"key": "compile", "elapsed_sec": 0.011917441996047273}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "execute", "elapsed_sec": 21.504408058011904}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015373013011412695}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008219883995479904}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "mint"], "data": {"time": {"key": "verify", "elapsed_sec": 0.023679752994212322}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "execute", "elapsed_sec": 21.555850614007795}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015382582001620904}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013327564010978676}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify", "elapsed_sec": 0.028795902006095275}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "create"], "data": {"time": {"key": "execute", "elapsed_sec": 21.586920308007393}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "create"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015440055998624302}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "create"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.010333084996091202}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "create"], "data": {"time": {"key": "verify", "elapsed_sec": 0.025858854001853615}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "add_heir"], "data": {"time": {"key": "execute", "elapsed_sec": 21.62205942500441}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "add_heir"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01580225399811752}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "add_heir"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013617682998301461}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "add_heir"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029507632993045263}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "add_heir"], "data": {"time": {"key": "execute", "elapsed_sec": 21.605599457994686}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "add_heir"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015562543994747102}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "add_heir"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.014036870998097584}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "add_heir"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029690955998376012}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "remove_heir"], "data": {"time": {"key": "execute", "elapsed_sec": 21.74912409800163}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "remove_heir"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015701172000262886}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "remove_heir"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008178929012501612}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "remove_heir"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02397342599579133}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "transfer"], "data": {"time": {"key": "execute", "elapsed_sec": 21.591866311006015}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "transfer"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015487404991290532}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "transfer"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.00844748799863737}}}
+{"context": ["heritable", "eval.scenarios.coin.Coin", "transfer"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02402426500339061}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_out"], "data": {"time": {"key": "execute", "elapsed_sec": 21.793877068004804}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_out"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015589669987093657}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_out"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013667790000909008}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_out"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029347738993237726}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_in"], "data": {"time": {"key": "execute", "elapsed_sec": 21.906066399009433}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_in"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015536959006567486}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_in"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013998955997521989}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "pay_in"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029621341003803536}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "claim"], "data": {"time": {"key": "execute", "elapsed_sec": 21.932770378989517}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "claim"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01581533499120269}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "claim"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.012894376006443053}}}
+{"context": ["heritable", "eval.scenarios.heritable_wallet.Wallet", "claim"], "data": {"time": {"key": "verify", "elapsed_sec": 0.028807529000914656}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "create"], "data": {"nof_instructions": 9}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "end_work"], "data": {"nof_instructions": 15}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "prove_to_employer"], "data": {"nof_instructions": 23}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "start_work"], "data": {"nof_instructions": 11}}
+{"context": ["working-hours", "eval.scenarios.working_hours.Aggregated", "create"], "data": {"nof_instructions": 7}}
+{"context": ["working-hours"], "data": {"time": {"key": "compile", "elapsed_sec": 0.004829162004170939}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "create"], "data": {"time": {"key": "execute", "elapsed_sec": 21.48984627299069}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "create"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015286437992472202}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "create"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008276263004518114}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "create"], "data": {"time": {"key": "verify", "elapsed_sec": 0.023660649996600114}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "start_work"], "data": {"time": {"key": "execute", "elapsed_sec": 21.626111524994485}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "start_work"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015332882001530379}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "start_work"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013598334000562318}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "start_work"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029030684003373608}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "end_work"], "data": {"time": {"key": "execute", "elapsed_sec": 21.52360612299526}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "end_work"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015409382991492748}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "end_work"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013823859000694938}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "end_work"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029319160006707534}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "prove_to_employer"], "data": {"time": {"key": "execute", "elapsed_sec": 21.689082746001077}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "prove_to_employer"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015573793993098661}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "prove_to_employer"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013676618997124024}}}
+{"context": ["working-hours", "eval.scenarios.working_hours.WorkLog", "prove_to_employer"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02932276100909803}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "create"], "data": {"nof_instructions": 25}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "prove_stamped"], "data": {"nof_instructions": 25}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "stamp"], "data": {"nof_instructions": 12}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "transfer"], "data": {"nof_instructions": 10}}
+{"context": ["ticket", "eval.scenarios.train_ticket.TicketProof", "create"], "data": {"nof_instructions": 7}}
+{"context": ["ticket"], "data": {"time": {"key": "compile", "elapsed_sec": 0.005491328993230127}}}
+{"context": ["ticket", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "execute", "elapsed_sec": 21.586562915006652}}}
+{"context": ["ticket", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.01565886300522834}}}
+{"context": ["ticket", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008194597001420334}}}
+{"context": ["ticket", "eval.scenarios.coin.Coin", "split"], "data": {"time": {"key": "verify", "elapsed_sec": 0.023942743995576166}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "create"], "data": {"time": {"key": "execute", "elapsed_sec": 21.61472920200322}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "create"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015986267986590974}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "create"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013288713002111763}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "create"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029358929008594714}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "transfer"], "data": {"time": {"key": "execute", "elapsed_sec": 21.618126161993132}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "transfer"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015555138990748674}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "transfer"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.008314320002682507}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "transfer"], "data": {"time": {"key": "verify", "elapsed_sec": 0.023947102003148757}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "stamp"], "data": {"time": {"key": "execute", "elapsed_sec": 21.599316757987253}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "stamp"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.015232727993861772}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "stamp"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.00833435999811627}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "stamp"], "data": {"time": {"key": "verify", "elapsed_sec": 0.02364370200666599}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "prove_stamped"], "data": {"time": {"key": "execute", "elapsed_sec": 21.609147590992507}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "prove_stamped"], "data": {"time": {"key": "verify_check_proof", "elapsed_sec": 0.016336726999725215}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "prove_stamped"], "data": {"time": {"key": "verify_insert_merkle", "elapsed_sec": 0.013499555992893875}}}
+{"context": ["ticket", "eval.scenarios.train_ticket.Ticket", "prove_stamped"], "data": {"time": {"key": "verify", "elapsed_sec": 0.029917683990788646}}}

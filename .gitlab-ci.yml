@@ -1,0 +1,63 @@
+image: ethsrilab/zapper-prerequisites:0.0.1
+
+
+.ensure_zapper_installed:
+
+  variables:
+    # define relevant paths
+    CACHE: "$CI_PROJECT_DIR/.cache"
+    INSTALLED: "$CACHE/installed.txt"
+    PIP_CACHE_DIR: "$CACHE/pip"  # cache pip downloads to a local directory
+    VENV: "$CACHE/venv"  # install virtualenv in a local directory
+    CARGO_TARGET_DIR: "$CACHE/cargo_target" # cache cargo (rust) compilation output
+
+  before_script:
+    # install unless already there
+    - cd frontend
+    - cat "$INSTALLED" 2>/dev/null || echo "Installing virtualenv, as cache is not available according to file $INSTALLED in $(pwd)"
+    - cat "$INSTALLED" 2>/dev/null || python -m venv "$VENV"
+    - source "$VENV/bin/activate"    # load the virtualenv before every job
+    - time pip install --upgrade --upgrade-strategy=eager --editable .[test]
+    - cd ../backend/py
+    - maturin develop --release --cargo-extra-args="--features tiny"  # use the "tiny" feature for faster tests
+    - cd ../..
+    - touch "$INSTALLED"
+    - python --version
+    - pip list
+
+  cache:
+    # cache installation
+    paths:
+      - "$CACHE"
+
+
+###########
+# INSTALL #
+###########
+
+
+install:
+  extends: .ensure_zapper_installed
+  stage: build
+  script:
+    - echo "Installed"
+
+
+###########
+# TESTING #
+###########
+
+
+unit-tests-backend:
+  stage: test
+  script:
+    - cd backend/lib
+    - make test-light
+
+
+unit-tests-frontend:
+  extends: .ensure_zapper_installed
+  stage: test
+  script:
+    - cd frontend
+    - pytest --import-mode=importlib
